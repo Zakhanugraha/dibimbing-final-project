@@ -3,9 +3,10 @@ import { useParams } from 'react-router-dom';
 //import data yang diambil
 import { IMAGE_BASE_URL, POSTER_SIZE } from '../config';
 //import components
+import BreadCrumb from './BreadCrumb';
 import Grid from './Grid';
 import Spinner from './Spinner';
-import BreadCrumb from './BreadCrumb';
+import MovieInfo from './MovieInfo';
 // import custom hooks dari useMovieFetch
 import { useMovieFetch } from '../hooks/useMovieFetch';
 //import image not found
@@ -21,6 +22,7 @@ const Movie = () => {
     return (
         <>
             <BreadCrumb movieTitle={movie.original_title} />
+            <MovieInfo movie={movie} />
         </>
     )
 }
