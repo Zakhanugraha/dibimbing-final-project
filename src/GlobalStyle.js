@@ -6,11 +6,13 @@ export const GlobalStyle = createGlobalStyle`
         --white: #fff;
         --lightGrey: #eee;
         --medGrey: #353535;
-        --darkGrey: #1c1c1c;
+        --darkGrey: #22577A;
+        --blueTeal: #38A3A5;
+        --greenMint: #57CC99;
         --fontSuperBig: 2.5rem;
         --fontBig: 1.5rem;
         --fontMed: 1.2rem;
-        --fontSmall: 1rem;
+        --fontSmall: 1rem; 
     }
 
     * {
@@ -21,7 +23,8 @@ export const GlobalStyle = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
-
+        background: var(--greenMint);
+        
         h1 {
             font-size: 2rem;
             font-weight: 600;
