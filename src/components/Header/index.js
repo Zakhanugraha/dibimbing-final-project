@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import RMDBLogo from '../../images/react-movie-logo.svg';
-import TMDBLogo from '../../images/tmdb_logo.svg';
+import RMDBLogo from '../../images/netflix_logo.png';
+import TMDBLogo from '../../images/camera_logo.png';
 import { Wrapper, Content, LogoImg, TMDBLogoImg } from './Header.styles';
 
 const Header = () => (
