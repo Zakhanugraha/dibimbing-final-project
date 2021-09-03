@@ -1,6 +1,6 @@
 
-const API_URL = 'http://localhost:9000/';
-// const API_URL = 'https://api-movie-react.herokuapp.com/';
+// const API_URL = 'http://localhost:9000/';
+const API_URL = 'https://api-movie-react.herokuapp.com/';
 
 const SEARCH_BASE_URL = `${API_URL}movies/search?key=`;
 const POPULAR_BASE_URL = `${API_URL}movies/popular`;
